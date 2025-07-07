@@ -1,11 +1,11 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
-  "name": "sbom-sha256:7dc897d3714ee157d233b2150340f72161b7072e008da6c51db2a9963b4f9c91",
+  "name": "sbom-sha256:a3310514039ed6ff13ff54c306ca8593345752a3779d445eccc9d6242848a32a",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
     "created": "2025-07-02T16:17:49Z",
     "creators": [
-      "Tool: apko (v0.28.0+dirty)",
+      "Tool: apko (0.29.2)",
       "Organization: Chainguard, Inc"
     ],
     "licenseListVersion": "3.16"
@@ -13,13 +13,13 @@
   "dataLicense": "CC0-1.0",
   "documentNamespace": "https://spdx.org/spdxdocs/apko/",
   "documentDescribes": [
-    "SPDXRef-Package-sha256-7dc897d3714ee157d233b2150340f72161b7072e008da6c51db2a9963b4f9c91"
+    "SPDXRef-Package-sha256-a3310514039ed6ff13ff54c306ca8593345752a3779d445eccc9d6242848a32a"
   ],
   "packages": [
     {
-      "SPDXID": "SPDXRef-Package-sha256-7dc897d3714ee157d233b2150340f72161b7072e008da6c51db2a9963b4f9c91",
-      "name": "sha256:7dc897d3714ee157d233b2150340f72161b7072e008da6c51db2a9963b4f9c91",
-      "versionInfo": "sha256:7dc897d3714ee157d233b2150340f72161b7072e008da6c51db2a9963b4f9c91",
+      "SPDXID": "SPDXRef-Package-sha256-a3310514039ed6ff13ff54c306ca8593345752a3779d445eccc9d6242848a32a",
+      "name": "sha256:a3310514039ed6ff13ff54c306ca8593345752a3779d445eccc9d6242848a32a",
+      "versionInfo": "sha256:a3310514039ed6ff13ff54c306ca8593345752a3779d445eccc9d6242848a32a",
       "filesAnalyzed": false,
       "description": "Multi-arch image index",
       "downloadLocation": "NOASSERTION",
@@ -29,21 +29,21 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "7dc897d3714ee157d233b2150340f72161b7072e008da6c51db2a9963b4f9c91"
+          "checksumValue": "a3310514039ed6ff13ff54c306ca8593345752a3779d445eccc9d6242848a32a"
         }
       ],
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:oci/hello-go@sha256%3A7dc897d3714ee157d233b2150340f72161b7072e008da6c51db2a9963b4f9c91?mediaType=application%2Fvnd.oci.image.index.v1%2Bjson",
+          "referenceLocator": "pkg:oci/hello-go@sha256%3Aa3310514039ed6ff13ff54c306ca8593345752a3779d445eccc9d6242848a32a?mediaType=application%2Fvnd.oci.image.index.v1%2Bjson",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-sha256-1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1",
-      "name": "sha256:1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1",
-      "versionInfo": "sha256:1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1",
+      "SPDXID": "SPDXRef-Package-sha256-5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15",
+      "name": "sha256:5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15",
+      "versionInfo": "sha256:5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15",
       "filesAnalyzed": false,
       "downloadLocation": "NOASSERTION",
       "supplier": "Organization: Chainguard, Inc.",
@@ -51,13 +51,36 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1"
+          "checksumValue": "5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15"
         }
       ],
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:oci/hello-go@sha256%3A1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1?arch=amd64\u0026mediaType=application%2Fvnd.oci.image.manifest.v1%2Bjson\u0026os=linux",
+          "referenceLocator": "pkg:oci/hello-go@sha256%3A5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15?arch=amd64\u0026mediaType=application%2Fvnd.oci.image.manifest.v1%2Bjson\u0026os=linux",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-gitC43ssh-C47C47github.comC47maliginC47hello-melange-apko-go.gitC64e7212fef5e6c4f54a58dbbefa758acbb83b58a71",
+      "name": "github.com/maligin/hello-melange-apko-go.git",
+      "versionInfo": "e7212fef5e6c4f54a58dbbefa758acbb83b58a71",
+      "filesAnalyzed": false,
+      "description": "Image configuration source",
+      "downloadLocation": "git+ssh://github.com/maligin/hello-melange-apko-go.git@e7212fef5e6c4f54a58dbbefa758acbb83b58a71",
+      "supplier": "Organization: Chainguard, Inc.",
+      "primaryPackagePurpose": "SOURCE",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e7212fef5e6c4f54a58dbbefa758acbb83b58a71"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/maligin/hello-melange-apko-go@e7212fef5e6c4f54a58dbbefa758acbb83b58a71",
           "referenceType": "purl"
         }
       ]
@@ -65,9 +88,14 @@
   ],
   "relationships": [
     {
-      "spdxElementId": "SPDXRef-Package-sha256-7dc897d3714ee157d233b2150340f72161b7072e008da6c51db2a9963b4f9c91",
+      "spdxElementId": "SPDXRef-Package-sha256-a3310514039ed6ff13ff54c306ca8593345752a3779d445eccc9d6242848a32a",
       "relationshipType": "VARIANT_OF",
-      "relatedSpdxElement": "SPDXRef-Package-sha256-1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1"
+      "relatedSpdxElement": "SPDXRef-Package-sha256-5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-a3310514039ed6ff13ff54c306ca8593345752a3779d445eccc9d6242848a32a",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-Package-gitC43ssh-C47C47github.comC47maliginC47hello-melange-apko-go.gitC64e7212fef5e6c4f54a58dbbefa758acbb83b58a71"
     }
   ]
 }

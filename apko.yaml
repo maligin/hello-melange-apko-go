@@ -4,7 +4,7 @@ contents:
     - ./melange.rsa.pub
   repositories:
     - https://packages.wolfi.dev/os
-    - '@local /work/packages'
+    - '@local packages'
   packages:
     - wolfi-base
     - ca-certificates-bundle

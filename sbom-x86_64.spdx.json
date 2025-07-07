@@ -1,11 +1,11 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
-  "name": "sbom-sha256:0422238862a076576f9f3aa764beaf52e62ebe8c4c0fc5873a28b8f51fd6fb4e",
+  "name": "sbom-sha256:02a57ad94a8c1aa65434df301b93d398b03cd3fa61ac47b0a8ddf5a6b50f2432",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
     "created": "2025-07-02T16:17:49Z",
     "creators": [
-      "Tool: apko (v0.28.0+dirty)",
+      "Tool: apko (0.29.2)",
       "Organization: Chainguard, Inc"
     ],
     "licenseListVersion": "3.16"
@@ -13,13 +13,13 @@
   "dataLicense": "CC0-1.0",
   "documentNamespace": "https://spdx.org/spdxdocs/apko/",
   "documentDescribes": [
-    "SPDXRef-Package-sha256-1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1"
+    "SPDXRef-Package-sha256-5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15"
   ],
   "packages": [
     {
-      "SPDXID": "SPDXRef-Package-sha256-1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1",
-      "name": "sha256:1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1",
-      "versionInfo": "sha256:1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1",
+      "SPDXID": "SPDXRef-Package-sha256-5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15",
+      "name": "sha256:5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15",
+      "versionInfo": "sha256:5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15",
       "filesAnalyzed": false,
       "description": "apko container image",
       "downloadLocation": "NOASSERTION",
@@ -28,20 +28,20 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1"
+          "checksumValue": "5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15"
         }
       ],
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:oci/hello-go@sha256%3A1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1?arch=amd64\u0026mediaType=application%2Fvnd.oci.image.manifest.v1%2Bjson\u0026os=linux",
+          "referenceLocator": "pkg:oci/hello-go@sha256%3A5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15?arch=amd64\u0026mediaType=application%2Fvnd.oci.image.manifest.v1%2Bjson\u0026os=linux",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-sha256-0422238862a076576f9f3aa764beaf52e62ebe8c4c0fc5873a28b8f51fd6fb4e",
-      "name": "sha256:0422238862a076576f9f3aa764beaf52e62ebe8c4c0fc5873a28b8f51fd6fb4e",
+      "SPDXID": "SPDXRef-Package-sha256-02a57ad94a8c1aa65434df301b93d398b03cd3fa61ac47b0a8ddf5a6b50f2432",
+      "name": "sha256:02a57ad94a8c1aa65434df301b93d398b03cd3fa61ac47b0a8ddf5a6b50f2432",
       "versionInfo": "20230201",
       "filesAnalyzed": false,
       "description": "apko operating system layer",
@@ -50,7 +50,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:oci/hello-go@sha256%3A0422238862a076576f9f3aa764beaf52e62ebe8c4c0fc5873a28b8f51fd6fb4e?arch=amd64\u0026mediaType=application%2Fvnd.oci.image.layer.v1.tar%2Bgzip\u0026os=linux",
+          "referenceLocator": "pkg:oci/hello-go@sha256%3A02a57ad94a8c1aa65434df301b93d398b03cd3fa61ac47b0a8ddf5a6b50f2432?arch=amd64\u0026mediaType=application%2Fvnd.oci.image.layer.v1.tar%2Bgzip\u0026os=linux",
           "referenceType": "purl"
         }
       ]
@@ -644,9 +644,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-melange.yaml-unknown",
+      "SPDXID": "SPDXRef-Package-melange.yaml-e7212fef5e6c4f54a58dbbefa758acbb83b58a71",
       "name": "melange.yaml",
-      "versionInfo": "unknown",
+      "versionInfo": "e7212fef5e6c4f54a58dbbefa758acbb83b58a71",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -656,7 +656,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:github/https%3A/%2Funknown%2Funknown%2Funknown@unknown#melange.yaml",
+          "referenceLocator": "pkg:github/maligin/hello-melange-apko-go.git@e7212fef5e6c4f54a58dbbefa758acbb83b58a71#melange.yaml",
           "referenceType": "purl"
         }
       ]
@@ -668,19 +668,19 @@
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
-      "downloadLocation": "https://github.com/chainguard-dev/hello-melange-apko/archive/refs/heads/main.tar.gz",
+      "downloadLocation": "https://github.com/maligin/hello-melange-apko-go/archive/refs/heads/main.tar.gz",
       "originator": "Organization: Unknown",
       "supplier": "Organization: Unknown",
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "637b6414f2eb2fdad053333005c3104639227a35c7b9f30983ede29fc65423e9"
+          "checksumValue": "8069d57542627eee7a96a6a782cf23435b4036039c4f715093acd3764f98ce72"
         }
       ],
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:generic/hello-server@0.1.0?checksum=sha256%3A637b6414f2eb2fdad053333005c3104639227a35c7b9f30983ede29fc65423e9\u0026download_url=https%3A%2F%2Fgithub.com%2Fchainguard-dev%2Fhello-melange-apko%2Farchive%2Frefs%2Fheads%2Fmain.tar.gz",
+          "referenceLocator": "pkg:generic/hello-server@0.1.0?checksum=sha256%3A8069d57542627eee7a96a6a782cf23435b4036039c4f715093acd3764f98ce72\u0026download_url=https%3A%2F%2Fgithub.com%2Fmaligin%2Fhello-melange-apko-go%2Farchive%2Frefs%2Fheads%2Fmain.tar.gz",
           "referenceType": "purl"
         }
       ]
@@ -762,9 +762,9 @@
   ],
   "relationships": [
     {
-      "spdxElementId": "SPDXRef-Package-sha256-1c20009c7d013f8191694aab4cd3615d77a066bc977f86052214df6814033fc1",
+      "spdxElementId": "SPDXRef-Package-sha256-5859aba2fa1c9473572a68e383714bd38fbc4e4fa2166501a5a13e17b05bfe15",
       "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-Package-sha256-0422238862a076576f9f3aa764beaf52e62ebe8c4c0fc5873a28b8f51fd6fb4e"
+      "relatedSpdxElement": "SPDXRef-Package-sha256-02a57ad94a8c1aa65434df301b93d398b03cd3fa61ac47b0a8ddf5a6b50f2432"
     },
     {
       "spdxElementId": "SPDXRef-Package-wolfi-baselayout-20230201-r21",
@@ -894,7 +894,7 @@
     {
       "spdxElementId": "SPDXRef-Package-hello-server-0.1.0-r0",
       "relationshipType": "DESCRIBED_BY",
-      "relatedSpdxElement": "SPDXRef-Package-melange.yaml-unknown"
+      "relatedSpdxElement": "SPDXRef-Package-melange.yaml-e7212fef5e6c4f54a58dbbefa758acbb83b58a71"
     },
     {
       "spdxElementId": "SPDXRef-Package-hello-server-0.1.0-r0",

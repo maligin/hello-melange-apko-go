@@ -3,8 +3,6 @@ package:
   version: 0.1.0
   epoch: 0
   description: friendly little webserver
-  target-architecture:
-    - all
   copyright:
     - license: Apache-2.0
       paths:
@@ -26,8 +24,8 @@ environment:
 pipeline:
   - uses: fetch
     with:
-      uri: https://github.com/chainguard-dev/hello-melange-apko/archive/refs/heads/main.tar.gz
-      expected-sha256: 637b6414f2eb2fdad053333005c3104639227a35c7b9f30983ede29fc65423e9
+      uri: https://github.com/maligin/hello-melange-apko-go/archive/refs/heads/main.tar.gz
+      expected-sha256: 8069d57542627eee7a96a6a782cf23435b4036039c4f715093acd3764f98ce72
 
   - name: Build Go application
     runs: |
