@@ -22,11 +22,6 @@ environment:
       - go
 
 pipeline:
-  - uses: fetch
-    with:
-      uri: https://github.com/maligin/hello-melange-apko-go/archive/refs/heads/main.tar.gz
-      expected-sha256: 8069d57542627eee7a96a6a782cf23435b4036039c4f715093acd3764f98ce72
-
   - name: Build Go application
     runs: |
       CGO_ENABLED=0 go build -o "${{targets.destdir}}/usr/bin/hello-server" .

@@ -8,3 +8,5 @@ docker run --rm --workdir /work -v ${PWD}:/work cgr.dev/chainguard/apko   build 
 melange build melange.yaml --arch amd64 --git-repo-url https://github.com/maligin/hello-melange-apko-go.git --signing-key melange.rsa && \
  apko build apko.yaml hello-go:test hello-go.tar --arch host && \
  docker load < hello-go.tar
+
+docker buildx build . -f Dockerfile.chainguard-go --platform linux/amd64 -t hello-go:go-latest 

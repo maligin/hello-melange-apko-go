@@ -1,0 +1,17 @@
+# ---------- Build Stage ----------
+FROM cgr.dev/chainguard/go:latest-dev AS builder
+
+WORKDIR /app
+COPY go.mod go.sum ./
+RUN go mod download
+
+COPY . .
+RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o hello-server .
+
+# ---------- Final Stage (distroless) ----------
+FROM cgr.dev/chainguard-private/chainguard-base:latest
+
+COPY --from=builder /app/hello-server /hello-server
+
+ENTRYPOINT ["/hello-server"]
+
